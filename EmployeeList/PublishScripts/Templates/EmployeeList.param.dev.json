@@ -1,0 +1,32 @@
+{
+  "siteName": {
+    "value": "KevinsEmployeeList"
+  },
+  "hostingPlanName": {
+    "value": "WhatisthisServicePlan"
+  },
+  "siteLocation": {
+    "value": "West US"
+  },
+  "sku": {
+    "value": "Free"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "serverName": {
+    "value": "kevin-practicesql"
+  },
+  "serverLocation": {
+    "value": "North Europe"
+  },
+  "administratorLogin": {
+    "value": "Kevin"
+  },
+  "administratorLoginPassword": {
+    "value": "BlueStars05!@"
+  },
+  "databaseName": {
+    "value": "KevinsEmployeeList_db"
+  }
+}

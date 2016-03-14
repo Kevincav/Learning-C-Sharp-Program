@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeList", "EmployeeList\EmployeeList.csproj", "{657F8584-A80B-454C-8B4C-8478FB83D3B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeList.Tests", "EmployeeList.Tests\EmployeeList.Tests.csproj", "{94A35939-CA0C-4377-8856-02581EE01A08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{38006EFD-611C-4EC5-B3CF-6F8E7A0AB303}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{33AB52BC-1B3D-482A-8C2C-500078427F67}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{E36E557D-BA05-47B4-85BD-11B2C6E8E349}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\EmployeeList.json = PublishScripts\Templates\EmployeeList.json
+		PublishScripts\Templates\EmployeeList.param.dev.json = PublishScripts\Templates\EmployeeList.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{657F8584-A80B-454C-8B4C-8478FB83D3B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{657F8584-A80B-454C-8B4C-8478FB83D3B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{657F8584-A80B-454C-8B4C-8478FB83D3B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{657F8584-A80B-454C-8B4C-8478FB83D3B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94A35939-CA0C-4377-8856-02581EE01A08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94A35939-CA0C-4377-8856-02581EE01A08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94A35939-CA0C-4377-8856-02581EE01A08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94A35939-CA0C-4377-8856-02581EE01A08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{33AB52BC-1B3D-482A-8C2C-500078427F67} = {38006EFD-611C-4EC5-B3CF-6F8E7A0AB303}
+		{E36E557D-BA05-47B4-85BD-11B2C6E8E349} = {38006EFD-611C-4EC5-B3CF-6F8E7A0AB303}
+	EndGlobalSection
+EndGlobal
